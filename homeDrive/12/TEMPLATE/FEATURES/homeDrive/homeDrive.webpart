@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="homeDrive.homeDrive, homeDrive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7baad5f5a904fbab" />
+      <importErrorMessage>Cannot import Home Drive (GilesH Projects) Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Home Drive (GilesH Projects)</property>
+        <property name="Description" type="string">Provides a File Share (Windows Explorer) view of your Home Drive.  (Appends the current Windows Username to the end of the provided UNC path)</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

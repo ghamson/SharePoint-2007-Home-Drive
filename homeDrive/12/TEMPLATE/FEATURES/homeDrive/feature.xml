@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="81c7b07c-2219-493f-aa98-54bb3bd06a5e"
+          Title="Home Drive (GilesH Projects)"
+          Description="Provides a File Share (Windows Explorer) view of your Home Drive.  (Appends the current Windows Username to the end of the provided UNC path)"
+          Version="12.0.0.0"
+          Hidden="FALSE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>
+    <ElementFile Location="homeDrive.webpart" />
+  </ElementManifests>
+</Feature>
